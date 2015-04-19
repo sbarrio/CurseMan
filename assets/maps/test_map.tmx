@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="300" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile" tilewidth="32" tileheight="32">
+  <image source="../images/tile.png" width="384" height="128"/>
+ </tileset>
+ <layer name="bg" width="300" height="10">
+  <properties>
+   <property name="tileset" value="tile"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlkFTwjAQhXvRevEiop7UAwcqIv7/X2cykwzrTrZ9S5M00P1m3tCGbUmW9PV1nTGX09ITMAzDIJwASdcZhmG0QsqTEH9DvexRIcNYOw+KcakWZQtIU0vrSzHmOzny1ZNCnKV6ouXd6cPpc6JujX69xjXP4VkxLtWi3AHS1NL6UtTyqx445twLqoHm3fXldHD6nrgP4tdz35mleXF6VdRr31ESvC9o3mi9n5zaftUHUc+hY6naPlHL6z0l3k0t5yvvTX139ql4XCNrxb0g9RzNxnRPIX49dw+W4tKsG9fI1xzPUXhf0Oe31X5K5PKrDfBbpfNViZxxjfmqRtaKe0H6P9C53YpfXdr/XPnK/Gp6DPEoSi2/ijkjB9eYr3L3IAX1K5p/pblR0bml/Gps/a0+X+ZXZTiyc61faT2KgvjPj6J26Xylhffeo/GrN3Zti/lqCELmNoT7+E//v6N+NQg6jnwX5fkNSrERjqeQ1rgP89oLat2vdt3/fbdTzMkwDONW+QPA4yR1
+  </data>
+ </layer>
+ <layer name="platform" width="300" height="10">
+  <properties>
+   <property name="tileset" value="tile"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1UEKgzAQRuG0itAKtRR6gN7/ksZFIIQQGTNpJvA++BcuqinI0zkAAAAAAAAAAFDjm1wvXU4BAOfSPtEr525+U+9DGPIRDmjln716+W1+74bPqHF06h7t6bdevNej8vdWSBtEs9oK7+ho39MlWc19Ste1QqNKs9CvtFXxJO9G6NQvs9HadbU9NKuNuFUjdCttlEazcr2Kd9YazR3dmg2s1C6NTQb+o2RSvc+rNc13e9Rz5xa+yZKtis/fARWLDE4=
+  </data>
+ </layer>
+ <objectgroup name="door" width="300" height="10">
+  <object x="1248" y="192" width="32" height="32">
+   <properties>
+    <property name="curse" value="3"/>
+   </properties>
+  </object>
+  <object x="5184" y="192" width="32" height="32">
+   <properties>
+    <property name="curse" value="2"/>
+   </properties>
+  </object>
+  <object x="7072" y="192" width="32" height="32">
+   <properties>
+    <property name="curse" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="player_start" width="300" height="10">
+  <object x="3456" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="enemy" width="300" height="10">
+  <object x="672" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="608" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="512" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="9472" y="192" width="32" height="32">
+   <properties>
+    <property name="level" value="4"/>
+   </properties>
+  </object>
+  <object x="2432" y="224">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="2528" y="224">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="2656" y="192">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="2272" y="128">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="2080" y="160">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="2336" y="160">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="5280" y="192">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="5376" y="192">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="5472" y="192">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="5536" y="192">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="4704" y="128">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="5632" y="192">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="5728" y="192">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="5856" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="6016" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="6656" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="6752" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="6816" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="6880" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="6944" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="6592" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="7296" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="7392" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="8224" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="8416" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="8000" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="8096" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+  <object x="8576" y="224">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="8224" y="224"/>
+  <object x="8224" y="224">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="4416" y="128">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="4192" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="3936" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="4064" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="5024" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="3808" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="416" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="320" y="224">
+   <properties>
+    <property name="level" value="1"/>
+   </properties>
+  </object>
+  <object x="384" y="224">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="480" y="224">
+   <properties>
+    <property name="level" value="2"/>
+   </properties>
+  </object>
+  <object x="192" y="224">
+   <properties>
+    <property name="level" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="fg" width="300" height="10">
+  <properties>
+   <property name="tileset" value="tile"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1LEKwjAYhdGO7jr4AFI6+f6P5yolltTEXEvPgR/ahJAlfNMEAADncOm8t3UGjq70vmvXaHfrvLd1Bo7mvvovve/aNdrpFdTTq6x/6NWycyBFr7LSvfqmP5pFil5lJXvV0h3NIkGvslK96tGbMzbr+uF7hOfg+0oeA+6Y3wbW5p0Dv/QCYDwI3w==
+  </data>
+ </layer>
+</map>
